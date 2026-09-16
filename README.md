@@ -1,8 +1,18 @@
 # Google Workspace Integration Service
+> Backend service integrating Google Drive, Google Sheets, and Google Docs using FastAPI, OAuth 2.0, and SQLAlchemy.
 
 A FastAPI-based backend service that integrates with Google Workspace using OAuth 2.0 authentication.
 
 The application allows users to securely connect their Google account and access Google Drive, Google Sheets, and Google Docs resources through REST APIs.
+
+## Project Highlights
+
+- Implemented Google OAuth 2.0 Authorization Code Flow
+- Integrated Google Drive API for file retrieval
+- Integrated Google Sheets API for spreadsheet access
+- Integrated Google Docs API for document content extraction
+- Secure token storage using SQLAlchemy and SQLite
+- Interactive API documentation with Swagger UI
 
 ---
 
